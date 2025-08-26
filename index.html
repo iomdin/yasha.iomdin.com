@@ -1,0 +1,86 @@
+<!--
+Project name: yasha.iomdin.com
+Started on: 26.08.2025
+by @mishaiomdin
+
+
+index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Yasha Iomdin">
+    <meta property="og:description" content="Yasha Iomdin">
+    <meta property="og:url" content="https://yasha.iomdin.com/">
+    <meta property="og:image" content="https://yasha.iomdin.com/images/icons/YIO.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:image" content="https://yasha.iomdin.com/images/icons/YIO.png">
+
+    <title id="titleBrowser">Yasha Iomdin</title>
+
+    <!-- LIBRARIES -->
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/lists.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/text.css">
+
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/YIO.png">
+</head>
+<body>
+
+    <header class="website_header">
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <!-- yasha.iomdin.com -->
+            <a href="/"><img src="images/icons/home.svg" class="icon"></a>
+            <a href="/" id="yasha.iomdin.com">yasha.iomdin.com</a>
+    
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <img src="images/icons/language.svg" class="icon">
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </span>
+    </header>
+
+    <!-- Page header -->
+    <header class="page_header">
+        <h1 class="icon-text">
+            <img src="/images/icons/YIO.png" class="big-icon">
+            <span id="titleText">Yasha Iomdin</span>
+        </h1>
+    </header>
+
+    <main>
+    </main>
+
+    <!-- Main script -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
